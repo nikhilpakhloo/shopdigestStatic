@@ -7,7 +7,7 @@ import { Button } from '.';
 
 export default function Filters() {
   return (
-    <div className="flex md:justify-between justify-end gap-2 border-b  border-bordergray pb-4 ">
+    <div className="flex md:justify-between justify-end gap-2 border-b  border-bordergray pb-4 px-4 ">
     <div className="flex  space-x-4 items-center ">
       <Button
         title={`All filters`}

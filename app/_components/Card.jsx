@@ -7,8 +7,8 @@ import { Button } from ".";
 
 export default function Card() {
   return (
-    <div className="my-6 border rounded-md border-bordergray py-8 px-4">
-      <div className="w-full lg:flex  space-y-3 lg:space-x-5">
+    <div className="my-6 border rounded-md border-bordergray py-5 mx-5 px-5">
+      <div className="w-full lg:flex  space-y-3 lg:space-x-5 ">
         <div className="lg:w-auto ">
           <iframe
            
