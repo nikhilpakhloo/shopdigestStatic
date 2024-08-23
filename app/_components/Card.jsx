@@ -7,7 +7,7 @@ import { Button } from ".";
 
 export default function Card() {
   return (
-    <div className="my-6 border rounded-md border-graylight py-8 px-4">
+    <div className="my-6 border rounded-md border-bordergray py-8 px-4">
       <div className="w-full lg:flex  space-y-3 lg:space-x-5">
         <div className="lg:w-auto ">
           <iframe
@@ -21,7 +21,7 @@ export default function Card() {
             allowfullscreen
           ></iframe>
         </div>
-        <div className="lg:w-[40%]  flex flex-col space-y-3 justify-between md:px-5 lg:border-r  border-graylight">
+        <div className="lg:w-[40%]  flex flex-col space-y-3 justify-between md:px-5 lg:border-r  border-bordergray">
             <div>
           <h1 className="font-bold">Teemil: Eco Print on Demand</h1>
           <p className="text-graylight">
@@ -35,12 +35,12 @@ export default function Card() {
               <span className="font-bold text-gray">Pricing plans</span>
               <p className="text-gray">4</p>
             </div>
-            <div className="flex space-x-2 items-center border-b border-graylight pb-4">
+            <div className="flex space-x-2 items-center border-b border-bordergray pb-4">
               {PricingPlan.map((item, index) => (
                 <Button
                   title={`${item.plan}`}
-                  textStyle={`text-graylight md:text-sm text-xs`}
-                  className={`border px-2 py-1 rounded-lg border-graylight`}
+                  textStyle={`text-[#999FAA] md:text-sm font-semibold text-xs`}
+                  className={`border-bordergray border px-2 py-1 rounded-lg `}
                   key={index}
 
                 />
@@ -74,8 +74,8 @@ export default function Card() {
 
             </div>
             <div className="flex flex-col space-y-4">
-                <Button title={`Choose your room`} className={`bg-green px-2 py-1 rounded-full`} textStyle={`font-bold text-white md:text-md text-sm`}/>
-                <Button title={`View Details`} className={`border px-2 py-1 rounded-lg border-graylight`} textStyle={`font-bold md:text-md text-sm`}/>
+                <Button title={`Choose your room`} className={`bg-green px-2 py-2 rounded-full flex items-center `} textStyle={`font-bold text-white md:text-md text-sm`}/>
+                <Button title={`View Details`} className={`border px-2 py-1 rounded-lg border-bordergray`} textStyle={`font-bold md:text-md text-sm`}/>
             </div>
 
 

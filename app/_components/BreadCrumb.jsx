@@ -12,7 +12,7 @@ export default function BreadCrumb() {
       <MdKeyboardArrowRight color={Color.gray} />
       <span className="text-gray">Subcategory</span>
       <MdKeyboardArrowRight color={Color.gray} />
-      <span className="text-graylight">item</span>
+      <span className="text-[#9CA9C3]">item</span>
     </div>
   );
 }

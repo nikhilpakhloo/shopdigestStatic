@@ -8,7 +8,7 @@ export default function Home() {
       <BreadCrumb />
       {/* description about themes */}
 
-      <div className="flex flex-col space-y-3 border-b my-4 pb-8 border-graylight ">
+      <div className="flex flex-col space-y-3 border-b my-4 pb-8 border-bordergray  ">
         <h1 className="text-2xl font-bold">
           Python starter templates and themes
         </h1>
