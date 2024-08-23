@@ -16,8 +16,8 @@ export default function Home() {
         <p className="text-graylight">
           The studio-quality three-mic array is designed to reduce feedback, so
           The studio-quality three-mic array is designed to reduce feedback , so
-          means everyone hears you - not what's going on around you means
-          everyone hears you - not what's going on around.
+          means everyone hears you - not what&apos;s going on around you means
+          everyone hears you - not what&apos;s going on around.
         </p>
       </div>
 

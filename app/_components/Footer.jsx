@@ -5,7 +5,7 @@ import { FooterLinks } from ".";
 export default function Footer() {
   return (
     <div className="lg:p-4">
-      <h1 className="text-xl font-bold mb-4">Today's Featured Shopify apps</h1>
+      <h1 className="text-xl font-bold mb-4">Today&apos;s Featured Shopify apps</h1>
 
       <div className="space-y-2 lflex items-center">
         <Link

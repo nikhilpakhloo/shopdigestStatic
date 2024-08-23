@@ -41,6 +41,8 @@ export default function Card() {
                   title={`${item.plan}`}
                   textStyle={`text-graylight md:text-sm text-xs`}
                   className={`border px-2 py-1 rounded-lg border-graylight`}
+                  key={index}
+
                 />
               ))}
             </div>
