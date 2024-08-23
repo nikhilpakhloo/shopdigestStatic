@@ -75,7 +75,7 @@ export default function Card() {
             </div>
             <div className="flex flex-col space-y-4">
                 <Button title={`Choose your room`} className={`bg-green px-2 py-1 rounded-full`} textStyle={`font-bold text-white md:text-md text-sm`}/>
-                <Button title={`Choose your room`} className={`border px-2 py-1 rounded-lg border-graylight`} textStyle={`font-bold md:text-md text-sm`}/>
+                <Button title={`View Details`} className={`border px-2 py-1 rounded-lg border-graylight`} textStyle={`font-bold md:text-md text-sm`}/>
             </div>
 
 
