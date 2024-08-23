@@ -15,7 +15,7 @@ export default function Card() {
             src="https://www.youtube.com/embed/QdBZY2fkU-0?si=6vHs-aXd_SnDn6q_"
             title="YouTube video player"
             frameborder="0"
-            className="rounded-md md:w-[500px] md:h-[240px]"
+            className="rounded-md md:w-[500px] md:h-[240px] "
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
@@ -32,8 +32,8 @@ export default function Card() {
           <div className=" flex flex-col gap-y-2">
             <div className="flex space-x-1 items-center">
               <HiCurrencyDollar color="green" size={25} />
-              <span className="font-bold text-graylight">Pricing plans</span>
-              <p className="text-graylight">4</p>
+              <span className="font-bold text-gray">Pricing plans</span>
+              <p className="text-gray">4</p>
             </div>
             <div className="flex space-x-2 items-center border-b border-graylight pb-4">
               {PricingPlan.map((item, index) => (
