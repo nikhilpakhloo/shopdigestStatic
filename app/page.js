@@ -27,7 +27,7 @@ export default function Home() {
 
 
       {/* Card */}
-      <div>
+      <div className="flex ">
         <Card/>
       </div>
       {/* footer */}
