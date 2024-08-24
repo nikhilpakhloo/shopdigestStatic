@@ -7,21 +7,21 @@ import { Button } from ".";
 
 export default function Card() {
   return (
-    <div className="my-6 border rounded-md border-bordergray py-6 mx-4 md:px-5 md:max-w-[84%]">
-      <div className="w-full lg:flex  space-y-3 lg:space-x-5 ">
+    <div className="my-6 border rounded-md border-bordergray py-6 mx-4 px-5 lg:max-w-[84%]">
+      <div className="w-full lg:flex lg:space-x-5     ">
         <div className="lg:w-auto ">
           <iframe
            
             src="https://www.youtube.com/embed/QdBZY2fkU-0?si=6vHs-aXd_SnDn6q_"
             title="YouTube video player"
             frameborder="0"
-            className="rounded-md w-full md:w-[400px] md:h-full "
+            className="rounded-md md:w-[400px] w-full md:h-full "
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
         </div>
-        <div className="lg:w-auto  flex flex-col space-y-3 justify-between md:px-2 lg:border-r  border-bordergray">
+        <div className="lg:w-auto  flex flex-col space-y-3 justify-between md:px-2 lg:border-r  border-bordergray lg:mt-0 mt-2">
             <div>
           <h1 className="font-bold">Teemil: Eco Print on Demand</h1>
           <p className="text-graylight">
@@ -64,7 +64,7 @@ export default function Card() {
             ))}
           </div>
         </div>
-        <div className="lg:w-[20%] flex lg:flex-col items-center justify-between">
+        <div className="lg:w-[20%] flex lg:flex-col items-center justify-between lg:mt-0 mt-2">
             <div className="flex">
                 <div className="flex flex-col">
                     <span className="font-bold text-gray text-end md:text-md text-sm ">Good</span>
