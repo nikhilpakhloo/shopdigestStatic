@@ -35,11 +35,11 @@ export default function Filters() {
       <div className="  lg:flex hidden items-center  space-x-1  border border-bordergray rounded-full group ">
         <Button
           title={`1st`}
-          className={`border-r border-bordergray h-full px-3 group-hover:hover:bg-hoverGray rounded-tl-full rounded-bl-full `}
+          className={`border-r border-bordergray h-full px-3 py-1 group-hover:hover:bg-hoverGray rounded-tl-full rounded-bl-full `}
         />
         <Button
           title={`2nd`}
-          className={`border-r border-bordergray h-full px-2 group-hover:hover:bg-hoverGray`}
+          className={`border-r border-bordergray h-full px-2 py-1 group-hover:hover:bg-hoverGray`}
         />
         <Button
           title={`3rd+`}
