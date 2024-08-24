@@ -7,7 +7,7 @@ import { Button } from ".";
 
 export default function Card() {
   return (
-    <div className="my-6 border rounded-md border-bordergray py-3 mx-4 md:px-5 md:max-w-[84%]">
+    <div className="my-6 border rounded-md border-bordergray py-6 mx-4 md:px-5 md:max-w-[84%]">
       <div className="w-full lg:flex  space-y-3 lg:space-x-5 ">
         <div className="lg:w-auto ">
           <iframe
